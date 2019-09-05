@@ -8,6 +8,7 @@ gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'rails', '5.2.3'
 gem 'redis'
+gem 'faker'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
@@ -15,6 +16,8 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+
+
 
 group :development do
   gem 'web-console', '>= 3.3.0'
@@ -27,4 +30,8 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
+  ###### new gems
+  gem 'capybara'
+  gem 'webdrivers', '~> 4.0'
+  gem 'launchy'
 end
